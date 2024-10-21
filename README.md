@@ -16,7 +16,7 @@ In the volatile world of finance, analyzing stock price movements is crucial for
 
 ### Type-Specific Considerations
 
-This project leverages historical stock price datasets, typically in CSV format, which include essential columns such as `Date` and `Adj Close`. The algorithms employed for processing and analysis include:
+This project leverages historical stock price datasets, typically in CSV format, which include essential columns such as `Date` and `Adj Close`. The program was tested on Amazon, Google, and Netflix stock datasets retrieved from Kaggle.com. The algorithms employed for processing and analysis include:
 
 -   **Merge Sort**: For sorting the datasets efficiently.
 -   **Divide and Conquer Techniques**: Used in the `MaxSubarray` class to find maximum gains and losses in both 1D and 2D stock data.

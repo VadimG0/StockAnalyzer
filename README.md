@@ -58,7 +58,7 @@ The project is organized into several classes, each responsible for a specific f
 1. **Clone the Repository**:
 
 ```bash
-    git clone https://github.com/yourusername/stock-analyzer.git
+    git clone https://github.com/VadimG0/StockAnalyzer.git
     cd stock-analyzer
 ```
 
@@ -101,11 +101,15 @@ The project is organized into several classes, each responsible for a specific f
 ### Verification of Component Algorithms with Toy Examples
 
 -   **Merge Sort Example:** For an input of the first 5 rows of Amazon data where 4th row is not within the correct place, running merge sort algorithm with 'Date' as a key column will correctly sort the rows. Below is the verification:
-    -   Code: ![plot](./img/merge_sort_example_code.jpg)
-    -   Result: ![plot](./img/merge_sort_example_result.jpg)
+    -   Code:
+        ![plot](./img/merge_sort_example_code.jpg)
+    -   Result:
+        ![plot](./img/merge_sort_example_result.jpg)
 -   **MaxSubarray Example:** For an input array [1, -2, 3, 4, -1, 2], the algorithm correctly identifies a maximum gain of 6. Below is the verification:
-    -   Code: ![plot](./img/spike_detection_example_code.jpg)
-    -   Result: ![plot](./img/spike_detection_example_result.jpg)
+    -   Code:
+        ![plot](./img/spike_detection_example_code.jpg)
+    -   Result:
+        ![plot](./img/spike_detection_example_result.jpg)
 -   **Spike Detection Example:** Given prices [100, 105, 110, 100, 95, 120] and a threshold of 10, the algorithm detects spikes at the transitions between 100 and 120.
 
 ## Discussion of Findings
